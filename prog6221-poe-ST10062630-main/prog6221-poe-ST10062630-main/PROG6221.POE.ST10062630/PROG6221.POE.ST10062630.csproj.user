@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ClearData.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DisplayRecipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EnterRecipeDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FilterRecipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="IngredientControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ResetQuantities.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ScaleRecipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ClearData.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DisplayRecipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EnterRecipeDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FilterRecipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="IngredientControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResetQuantities.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ScaleRecipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

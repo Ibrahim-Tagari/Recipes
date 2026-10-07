@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="PROG6221.POE.ST10062630.EnterRecipeDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Enter Recipe Details" FontSize="20" Margin="10"/>
+            <TextBox x:Name="RecipeName" Margin="10" Text="Recipe Name" GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText"/>
+            <TextBlock Text="Number of Ingredients" Margin="10,5"/>
+            <TextBox x:Name="NumIngredients" Margin="10,5"/>
+            <Button Content="Add Ingredients" Click="AddIngredients_Click" Margin="10,5"/>
+            <StackPanel x:Name="IngredientsPanel" Margin="10"/>
+            <TextBlock Text="Number of Steps" Margin="10,5"/>
+            <TextBox x:Name="NumSteps" Margin="10,5"/>
+            <Button Content="Add Steps" Click="AddSteps_Click" Margin="10,5"/>
+            <StackPanel x:Name="StepsPanel" Margin="10"/>
+            <Button Content="Save Recipe" Click="SaveRecipe_Click" Margin="10,5"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
